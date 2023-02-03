@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="nl">
+    <head>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <title>Kleuren in de natuur</title>
+        <meta name="description" content="Een weergave van kleuren die je in de natuur tegen kunt komen, met de mogelijkheid zelf foto's up te loaden die geplaatst worden.">
+        <meta name="keywords" content="gras, ijs, kleur, lucht, natuur, sneeuw, steenkool, vuur, zand, zon">
+        <meta name=author content="GitHub GFJ98">
+    </head>
+    <body>
+        <header id="koptekst"><h1>Kleuren in de natuur</h1></header>
+        <p>Als je goed kijkt, bestaat de natuur uit veel verschillende kleuren. Op deze pagina een kleine greep uit al het moois wat er te vinden is.</p>
+        <table id="natuurtabel">
+            <tr>
+                <td id="lucht" class="stylecelltxt"><span id="achtergrondtxtlucht">Lucht</span></td>
+                <td id="tdfotolucht" class="stylecellimg"><img src="images/sky-pexels-pixabay.jpg" alt="blauwe lucht met witte wolken" class="imagesize"></td>
+                <td id="zon" class="stylecelltxt"><span id="achtergrondtxtzon">Zon</span></td>
+                <td id="tdfotozon" class="stylecellimg"><img src="images/sun-pexels-pixabay.jpg" alt="een foto van de zon" class="imagesize"></td>
+            </tr>
+            <tr>
+                <td id="gras" class="stylecelltxt"><span id="achtergrondtxtgras">Gras</span></td>
+                <td id="tdfotogras" class="stylecellimg"><img src="images/grass-pexels-matthias-cooper.jpg" alt="close up foto van het gras" class="imagesize"></td>
+                <td id="zand" class="stylecelltxt"><span id="achtergrondtxtzand">Zand</span></td>
+                <td id="tdfotozand" class="stylecellimg"> <img src="images/dirt-pexels-muffin-creatives.jpg" alt="foto van een hand met bruin zand" class="imagesize"></td>
+            </tr>
+            <tr>
+                <td id="vuur" class="stylecelltxt"><span id="achtergrondtxtvuur">Vuur</span></td>
+                <td id="tdfotovuur" class="stylecellimg"><img src="images/fire-pexels-pixabay.jpg" alt="foto van vuur" class="imagesize"></td>
+                <td id="ijs" class="stylecelltxt"><span id="achtergrondtxtijs">IJs</span></td>
+                <td id="tdfotoijs" class="stylecellimg"><img src="images/ice-pexels-riccardo.jpg" alt="bevroren water; ijs" class="imagesize"></td>
+            </tr>
+            <tr>
+                <td id="sneeuw" class="stylecelltxt"><span id="achtergrondtxtsneeuw">Sneeuw</span></td>
+                <td id="tdfotosneeuw" class="stylecellimg"><img src="images/snow-pexels-james-wheeler.jpg" alt="besneeuwd bos" class="imagesize"></td>
+                <td id="steenkool" class="stylecelltxt"><span id="achtergrondtxtsteenkool">Steenkool</span></td>
+                <td id="tdfotosteenkool" class="stylecellimg"><img src="images/coal-pexels-dexter-fernandes.jpg" alt="stukken steenkool" class="imagesize"></td>
+            </tr>
+        </table>
+        <h2>Jouw foto op deze website?</h2>
+        <p>Wil jij jouw foto op deze website terugzien? Vul dan dit formulier in en binnenkort wordt jouw foto geplaatst!</p>
+        <form action="https://formspree.io/f/mvonzynj" method="post">
+            <div>
+            <input type="file" name="fotos" accept="image/*">
+            <br><br>
+            <textarea id="opmerkingen" name="opmerkingen" maxlength="500" placeholder="Ruimte voor eventuele opmerkingen die bij de foto geplaatst kunnen worden, zoals naam van de fotograaf en de locatie waar de foto is gemaakt."></textarea>
+            <br><br>
+            <input type="submit" value="Verzenden">
+        </div>
+        </form>
+        <footer id="voetnoot"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In fringilla odio urna, sed vehicula elit mollis ac. Pellentesque blandit lectus finibus mi molestie fermentum. Curabitur cursus sit amet lacus in aliquam. Vestibulum sed interdum neque. Etiam ullamcorper ex quis tincidunt imperdiet.</p></footer>
+    </body>
+</html>

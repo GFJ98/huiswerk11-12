@@ -1,0 +1,134 @@
+#koptekst {
+    width: 100%;
+    height: 50px;
+    background-color: #dcdcdc;
+}
+
+#voetnoot {
+    width: 100%;
+    height: 50px;
+    background-color: #C3C3C3;
+}
+
+.stylecelltxt {
+    width: 100px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.stylecellimg {
+    width: 400px;
+    text-align: center;
+}
+
+.imagesize {
+    width: 300px;
+}
+
+#natuurtabel {
+    width: 1000px;
+    border: 2px solid;
+}
+
+#lucht {
+    background-color: #0cf;
+}
+
+#tdfotolucht {
+    background-color: #0ff;
+}
+
+#zon {
+    background-color: #fc3;
+}
+
+#tdfotozon {
+    background-color: #ffff33;
+}
+
+#gras {
+    background-color: #33cc00;
+}
+
+#tdfotogras {
+    background-color: #3f0;
+}
+
+#zand {
+    background-color: #996600;
+}
+
+#tdfotozand {
+    background-color: #996633;
+}
+
+#vuur {
+    background-color: #f00;
+}
+
+#tdfotovuur {
+    background-color: #ff3300;
+}
+
+#ijs {
+    background-color: #33ccff;
+}
+
+#tdfotoijs {
+    background-color: #3ff;
+}
+
+#sneeuw {
+    background-color: #fffafa;
+}
+
+#tdfotosneeuw {
+    background-color: #ffffff;
+}
+
+#steenkool {
+    color: white;
+    background-color: black;
+}
+
+#tdfotosteenkool {
+    color: white;
+    background-color: #323232
+}
+
+#achtergrondtxtlucht {
+    background-color: #e0ffff;
+}
+
+#achtergrondtxtzon {
+    background-color: #ffffe0;
+}
+
+#achtergrondtxtgras {
+    background-color: #98FB98;
+}
+
+#achtergrondtxtzand {
+    background-color: #fff8dc;
+}
+
+#achtergrondtxtvuur {
+    background-color: #fa8072;
+}
+
+#achtergrondtxtijs {
+    background-color: #b0e0e6;
+}
+
+#achtergrondtxtsneeuw {
+    background-color: #f8f8ff;
+}
+
+#achtergrondtxtsteenkool {
+    background-color: #2f4f4f;
+}
+
+#opmerkingen {
+    width: 250px;
+    height: 100px;
+}
